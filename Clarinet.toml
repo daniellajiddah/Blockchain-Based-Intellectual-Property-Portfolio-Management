@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/asset-inventory.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.competitive-analysis]
+path = 'contracts/competitive-analysis.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
